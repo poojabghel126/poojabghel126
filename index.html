@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pooja Baghel</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #161925;
+    --text: #e6e8ef;
+    --muted: #9aa0b4;
+    --accent: #7dd3fc;
+    --accent2: #c4b5fd;
+    --border: #262a3b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header {
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 2.1rem;
+    margin: 0 0 8px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 1.05rem;
+    max-width: 60ch;
+  }
+  section {
+    margin-top: 44px;
+  }
+  h2 {
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+  }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 6px; }
+  .cards {
+    display: grid;
+    gap: 14px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .card h3 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    color: var(--text);
+  }
+  .card p {
+    margin: 0 0 8px;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag {
+    font-size: 0.72rem;
+    background: rgba(125, 211, 252, 0.1);
+    color: var(--accent);
+    border: 1px solid rgba(125, 211, 252, 0.25);
+    padding: 2px 9px;
+    border-radius: 999px;
+  }
+  .skill-groups {
+    display: grid;
+    gap: 12px;
+  }
+  .skill-groups div span.label {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 0.85rem;
+    display: inline-block;
+    min-width: 100px;
+  }
+  .goal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent2);
+    border-radius: 8px;
+    padding: 18px 20px;
+    color: var(--text);
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .links a {
+    color: var(--bg);
+    background: var(--accent);
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .links a:hover { opacity: 0.85; }
+  footer {
+    margin-top: 60px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Hi, I'm Pooja Baghel 👋</h1>
+      <p class="tagline">
+        B.Tech CSE student at <strong>ABES Engineering College, Ghaziabad</strong> (2026–2029),
+        joined through lateral entry after completing my <strong>Diploma in Electronics Engineering from AMU</strong>.
+        Coming from a hardware background and now moving into software — currently learning DSA in C++
+        and working towards full-stack (MERN) development.
+      </p>
+    </header>
+
+    <section>
+      <h2>What I'm Doing Right Now</h2>
+      <ul>
+        <li>Practicing DSA daily on LeetCode and GeeksforGeeks</li>
+        <li>Learning C++ fundamentals and problem solving</li>
+        <li>Building small projects while learning web development (HTML, CSS, JavaScript → React → Node.js)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Smart Bell with Time Display</h3>
+          <p>Automatic bell system that rings at scheduled times with a live time display.</p>
+          <div class="tags">
+            <span class="tag">Arduino</span>
+            <span class="tag">C++</span>
+            <span class="tag">RTC Module</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>RFID Based Door Lock System</h3>
+          <p>Door lock that opens only for authorised RFID cards.</p>
+          <div class="tags">
+            <span class="tag">Arduino</span>
+            <span class="tag">RFID Module</span>
+            <span class="tag">C++</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div><span class="label">Languages</span> C++, C, JavaScript (learning)</div>
+        <div><span class="label">Hardware</span> Arduino, Microcontrollers, PSpice, MATLAB</div>
+        <div><span class="label">Web</span> HTML, CSS (learning React & Node.js)</div>
+        <div><span class="label">Tools</span> Git, GitHub, VS Code</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Goal</h2>
+      <div class="goal">
+        To become a software engineer at a product-based company. Right now the focus is simple —
+        get strong at DSA, build real projects, and keep shipping.
+      </div>
+    </section>
+
+    <section>
+      <h2>Find Me Here</h2>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/poojabagheloffcial/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://leetcode.com/u/pooja_baghel88/" target="_blank" rel="noopener">LeetCode</a>
+        <a href="https://www.geeksforgeeks.org/profile/poojabg6aex" target="_blank" rel="noopener">GeeksforGeeks</a>
+      </div>
+    </section>
+
+    <footer>⭐ Thanks for stopping by — feel free to connect!</footer>
+  </div>
+</body>
+</html>
