@@ -1,4 +1,4 @@
-# Hi, I'm Pooja Baghel 👋
+# Hi, I'm Pooja Baghel 
 
 B.Tech CSE student at **ABES Engineering College, Ghaziabad** (2026–2029), joined through lateral entry after completing my **Diploma in Electronics Engineering from AMU**.
 
